@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Services</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Community Services</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+         
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="text-center">
+        <div class="container">
+            <h1>Welcome to Community Services</h1>
+            <p class="lead">Providing essential services to our community</p>
+            <a href="#services" class="btn btn-primary btn-lg">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies auctor metus at
+                        tincidunt. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+                        Curae; Cras sit amet ligula ligula.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="Images/image.png" class="img-fluid rounded" alt="About Us Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+ 
+
+    <section id="testimonials">
+        <div class="container">
+            <h2 class="text-center">Testimonials</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Great service! They really helped our community during tough
+                                times."</p>
+                            <p class="text-muted">- John Doe</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"I appreciate the dedication of the team. They are always ready
+                                to assist."</p>
+                            <p class="text-muted">- Jane Smith</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Highly recommend their services to anyone in need."</p>
+                            <p class="text-muted">- Michael Johnson</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="bg-light">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="Images/image copy 2.png" class="card-img-top" alt="Team Member">
+                        <div class="card-body">
+                            <h5 class="card-title">community services</h5>
+                            <p class="card-text">“Caring has the gift of making the ordinary special.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="Images/image copy 3.png" class="card-img-top" alt="Team Member">
+                        <div class="card-body">
+                            <h5 class="card-title">community services</h5>
+                            <p class="card-text">Only a life lived for others is a life worthwhile.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img src="Images/image copy 4.png" class="card-img-top" alt="Team Member">
+                        <div class="card-body">
+                            <h5 class="card-title">community services</h5>
+                            <p class="card-text">Everyone can be great, because everyone can serve</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form id="contact-form" method="post" action="">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Community Services. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
